@@ -1,0 +1,26 @@
+body {
+  background: #4776E6;   /* fallback for older browsers */ 
+  background: -webkit-linear-gradient(to right, #4776E6, #8E54E9); /* Fallback for somewhat old browsers */
+  background: linear-gradient(to right, #4776E6, #8E54E9); /* For updated browsers */
+}
+
+.responsive {
+  max-width: 75%; /*Makes image responsive in size as screen size changes */
+  height: auto; /*Element will automatically adjust its height
+}
+  
+  img {
+  padding: 15px; /*Creates some space around the image */
+}
+
+.displayBox {
+  width: 100%; /*Width takes up 100% of available area */
+  font-family: Verdana, Tahoma, sans-serif; /*Provides fallback font options */
+}
+
+.scroll-box {
+  overflow-y: auto; /*Automatically creates scroll bar if overflow */
+  height: 500px; /*Sets height of scroll box */
+  float: left; /*Element floats to the left of its container */
+  padding: 1rem; /*Padding equal to the default font size of 1rem */
+}
